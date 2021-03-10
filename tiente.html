@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .makeUp {
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+<label for ="am" >Amount:</label>
+<input type ="text" class="makeUp" id="am" name="amount">
+
+ <label for ="cur"> From Currency:</label>
+<select name="from curency" class="makeUp" id="cur">
+    <option value="VND">VND</option>
+    <option value="USD">USD</option>
+</select>
+
+<label for ="toCur"> To Currency:</label>
+<select name="to currency" class="makeUp" id="toCur">
+    <option value="VND">VND</option>
+    <option value="USD">USD</option>
+</select>
+
+<button type="button" class="makeUp" onclick="xuLy()" >Convert</button>
+<br>
+<p id="ketQua"></p>
+<script src="tiente.js"></script>
+
+</body>
+</html>
